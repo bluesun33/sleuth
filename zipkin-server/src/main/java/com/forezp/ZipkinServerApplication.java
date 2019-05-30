@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import zipkin.server.EnableZipkinServer;
 
+@Deprecated
 @SpringBootApplication
 @EnableEurekaClient
 @EnableZipkinServer
